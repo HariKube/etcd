@@ -2681,6 +2681,9 @@
         },
         "labelSelector": {
           "type": "string"
+        },
+        "fieldSelector": {
+          "type": "string"
         }
       }
     },
@@ -2966,6 +2969,9 @@
           "description": "fragment enables splitting large revisions into multiple watch responses."
         },
         "labelSelector": {
+          "type": "string"
+        },
+        "fieldSelector": {
           "type": "string"
         }
       }

@@ -498,6 +498,8 @@ message RangeRequest {
   int64 max_create_revision = 13 [(versionpb.etcd_version_field)="3.1"];
 
   string labelSelector = 14;
+
+  string fieldSelector = 15;
 }
 
 message RangeResponse {
@@ -815,6 +817,8 @@ message WatchCreateRequest {
   bool fragment = 8 [(versionpb.etcd_version_field)="3.4"];
 
   string labelSelector = 9;
+
+  string fieldSelector = 10;
 }
 
 message WatchCancelRequest {

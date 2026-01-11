@@ -56,7 +56,7 @@ OPENAPIV2_BIN=$(tool_get_bin github.com/grpc-ecosystem/grpc-gateway/v2/protoc-ge
 GOGOPROTO_ROOT="$(tool_pkg_dir github.com/gogo/protobuf/proto)/.."
 GRPC_GATEWAY_ROOT="$(tool_pkg_dir github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway)/.."
 RAFT_ROOT="$(tool_pkg_dir go.etcd.io/raft/v3/raftpb)/.."
-GOOGLEAPI_ROOT=$(mktemp -d -t 'googleapi.XXXXX')
+GOOGLEAPI_ROOT=$(mktemp -d -t 'googleapi.XXXXXX')
 
 readonly googleapi_commit=0adf469dcd7822bf5bc058a7b0217f5558a75643
 
